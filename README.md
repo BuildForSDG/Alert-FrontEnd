@@ -1,4 +1,3 @@
-barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c5f8d465c4dc488bb194c264091079c8)](https://app.codacy.com/gh/BuildForSDG/Alert-FrontEnd?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Alert-FrontEnd&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
@@ -28,22 +27,20 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 
 Install `npm` or `yarn` if you dont have any of them already installed. We recommend Yarn though.
 
-After clonning the repo to your local machine and moving into the cloned folder, Run `yarn install` to get started by installing dependencies. 
+After clonning the repo to your local machine and moving into the cloned folder, Run `nmp install` to get started by installing dependencies. 
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
 
 All tests should be written in the `__tests__' folder. There's a sample in there.
 
-This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
-
 #### Hints
 
 - Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
-- Install additional dependencies: `yarn add <dependency-name> [-D]`
-- Run tests: `yarn test`
-- Run tests with test coverage info: `yarn test:cover`
+- Install additional dependencies: `npm add <dependency-name> [-D]`
+- Run tests: `npm test`
+- Run tests with test coverage info: `npm test:cover`
 - Check the codebase for proper syntax and formatting compliance: `yarn lint`
-- Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
+- Run your app in local dev mode: `npm run start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:3000, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
 ## Authors
 
