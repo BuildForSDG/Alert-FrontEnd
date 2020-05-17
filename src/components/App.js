@@ -4,7 +4,7 @@ import HomePage from './home/HomePage';
 import PageNotFound from './PageNotFound';
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Switch>
         <Route exact path="/" component={HomePage} /> 
         <Route component={PageNotFound} />
